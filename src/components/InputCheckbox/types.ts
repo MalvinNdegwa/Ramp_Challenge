@@ -1,9 +1,9 @@
 import { FunctionComponent } from "react"
 
 type InputCheckboxProps = {
-  id: 'RampInputCheckbox'
+  id: string | number
   checked?: boolean
-  onChange: (newValue: string) => void
+  onChange: (newValue: boolean) => void
   disabled?: boolean
 }
 
